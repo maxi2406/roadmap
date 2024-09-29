@@ -8,32 +8,50 @@ https://roadmap.sh/projects/single-page-cv
     <title>roadmap-project cv</title>
   </head>
   <body>
-    <h1>Your Name</h1>
-    <h4>junior frontend developer</h4><br>
-    <p>123 Your Stret<br>
-    Your City, ST 12345<br>
-    (123) 456-7890<br>
-    no_reply@example.com</p>
-    <h4>Skills</h4>
-    <p>HTML, CSS, JavaScript, Accessibility, Figma to Desing, Responsive Web Design, Technical Writing, Presentation</p>
-    <h4>Education</h4>
-    <p>School Name, Location - degree</p>
-    <p>month 20xx to month 20xx</p>
-    <p>List of exciting things you did at university</p>
-    <h4>Experience</h4>
-    <p>Company Name, location - Job Tittle</p>
-    <p>Month 20xx to Month 20xx</p>
-    <ul> List of achievements</ul>
-    <ul> List of achievements</ul>
-    <ul> List of achievements</ul>
-    <p>Skills: List of skills used or gained at this company</p>
-    <p>Company Name, location - Job Tittle</p>
-    <p>Month 20xx to Month 20xx</p>
-    <ul> List of achievements</ul>
-    <ul> List of achievements</ul>
-    <ul> List of achievements</ul>
-    <p>Skills: List of skills used or gained at this company</p>
-    <h4>Across the internet</h4>
-    <p>Add your Linkedin, GitHub profile links</p>
+    <header>
+        <h1>Maximo Lujan</h1>
+        <h2>junior developer</h2>
+        <div class="contacto-info">
+            <address>
+                123 walaby street<br/>
+                pinamar, AZ 12345
+                <p>(123)456-7890</p>
+                <p>no_reply@exaple.com</p>
+            </address>
+        </div>
+    </header>
+    <section class="skills">
+        <h3 class="section-title">Skills</h3>
+        <p>
+            HTML, CSS, JavaScript, TypeScript, React, Agile Methodologies,
+            Accessibility, Figma, Git, Jira
+        </p>
+    </section>
+    <section class="education">
+        <h3 class="section-title">education</h3>
+        <h4>Western Governors University, UT - B.S. Computer Science</h4>
+        <P>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis pariatur quam vero quibusdam hic rem voluptatum, ullam molestias nostrum deserunt doloremque tempora repellat at dolore fuga unde excepturi reprehenderit a?
+        </P>
+    </section>
+    <section class="experience">
+        <h3 class="section-title">experince</h3>
+        <article>
+            <h4>EIS Group, CA - Frontend Engineer</h4>
+            <p>march 2022 to present</p>
+            <ul>
+                <li>Delivering pixel-perfect implementations using React and
+                    TypeScript.</li>
+                <li>Collaborating with designers, backend engineers, and delivery
+                    managers to size and scope work.</li>
+                <li>Create training materials and conduct training sessions to onboard
+                    new team members.</li>
+            </ul>
+            <p>
+                Skills: React, TypeScript, Jira, Figma, Design Systems, Enterprise
+            Software
+            </p>
+        </article>
+    </section>
   </body>
 </html>
